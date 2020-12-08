@@ -1,0 +1,10 @@
+ol{
+    min-width: 320px;
+    margin: 0;
+    color: gray;
+}
+
+.name{
+    color: black;
+    font-weight: 600;
+}
