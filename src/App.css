@@ -1,0 +1,19 @@
+.App {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  padding-bottom: 2rem;
+  line-height: 1;
+}
+
+input {
+  margin-bottom: 2rem;
+}

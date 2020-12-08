@@ -16,6 +16,7 @@ const App = () => {
 	return (
 		<div className="App">
 			<div className="title">Users list</div>
+      <input {...{ placeholder: 'Search by user name...', value, onChange: (e) => setValue(e.target.value) }} />
       <UserList { ...{ value, list }}/>
 		</div>
 	);
